@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9CF628CC2442B3BB00519C4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF628CB2442B3BB00519C4B /* main.cpp */; };
+		9CF628D62443C04200519C4B /* polymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF628D52443C04200519C4B /* polymorphism.cpp */; };
+		9CF628DB2443DCAD00519C4B /* outputformatting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF628D92443DCAD00519C4B /* outputformatting.cpp */; };
+		9CF628DD2443E0D300519C4B /* PlanillaEmpleados.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF628DC2443E0D300519C4B /* PlanillaEmpleados.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		9CF628C82442B3BA00519C4B /* cppfirstproject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppfirstproject; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF628CB2442B3BB00519C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9CF628D52443C04200519C4B /* polymorphism.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = polymorphism.cpp; sourceTree = "<group>"; };
+		9CF628D92443DCAD00519C4B /* outputformatting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = outputformatting.cpp; sourceTree = "<group>"; };
+		9CF628DA2443DCAD00519C4B /* outputformatting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = outputformatting.hpp; sourceTree = "<group>"; };
+		9CF628DC2443E0D300519C4B /* PlanillaEmpleados.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlanillaEmpleados.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				9CF628CB2442B3BB00519C4B /* main.cpp */,
+				9CF628D52443C04200519C4B /* polymorphism.cpp */,
+				9CF628D92443DCAD00519C4B /* outputformatting.cpp */,
+				9CF628DA2443DCAD00519C4B /* outputformatting.hpp */,
+				9CF628DC2443E0D300519C4B /* PlanillaEmpleados.cpp */,
 			);
 			path = cppfirstproject;
 			sourceTree = "<group>";
@@ -119,6 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF628D62443C04200519C4B /* polymorphism.cpp in Sources */,
+				9CF628DD2443E0D300519C4B /* PlanillaEmpleados.cpp in Sources */,
+				9CF628DB2443DCAD00519C4B /* outputformatting.cpp in Sources */,
 				9CF628CC2442B3BB00519C4B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
